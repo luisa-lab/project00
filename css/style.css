@@ -1,0 +1,64 @@
+
+#menu-droite {
+    background-color:rgb(219, 31, 31);
+    width:auto;
+    float:left;
+    position: left;
+   
+    }
+    #contenu {
+        margin-left:110px;
+        }
+
+        #moncercle{
+            background:#bfd70e;
+            border-radius:50%;
+            width:160px;
+            height:160px;
+            border:2px solid #679403; 
+          }
+          #ovale {
+            width: 70px;
+            height: 40px;
+            border-radius: 70px / 40px;
+            background: rgb(196, 240, 230);
+            text-align: center;
+            text-decoration: aliceblue;
+        }
+        #cercle {
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            background: green;
+        }
+        #triangle-1 {
+            width: 0;
+            height: 0;
+            border-left: 18px solid transparent;
+            border-right: 18px solid transparent;
+            border-bottom: 30px solid purple;
+        }
+        
+        #triangle-2 {
+            width: 0;
+            height: 0;
+            border-left: 18px solid transparent;
+            border-right: 18px solid transparent;
+            border-top: 30px solid purple;
+        }
+        #triangle {
+            width: 0;
+            height: 0;
+            border-top: 18px solid transparent;
+            border-bottom: 18px solid transparent;
+            border-left: 30px solid blue;
+        }
+        #carre {
+            height: 30px;
+            width: 30px;
+            background: red;
+            -ms-transform: rotate(45deg); /* Internet Explorer */
+            -moz-transform: rotate(45deg); /* Firefox */
+            -webkit-transform: rotate(45deg); /* Safari et Chrome */
+            -o-transform: rotate(45deg); /* Opera */
+        }
